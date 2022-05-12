@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e dimínua o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzir áudio em html 5.</p>
+    <!-- <audio src="midia/existe-vida-ai.wav" controls autoplay></audio>     MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/existe-vida-ai.wav" type="audio/wav"> 
+        <source src="midia/existe-vida-ai.mp3" type="audio/mpeg"> 
+        <source src="midia/existe-vida-ai.ogg" type="audio/ogg"> 
+        <p>navegador não supotar esse formato de audio <a href="midia/existe-vida-ai.wav"> clique aqui para baixar o aquivo</a></p>
+    </audio>
+ 
+
+</head>
+<body>
+    
+</body>
+</html>
