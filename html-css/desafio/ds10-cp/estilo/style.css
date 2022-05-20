@@ -131,7 +131,7 @@ main p {
     text-align: justify;
     text-indent: 30px;  /*margem do texto*/
     font-size: 1em;
-    line-height: 2em; /*espaçamento entre as linhas */
+    line-height: 2em; /*espaçamento entre as linhas do texto*/
 }
 
 main strong {
