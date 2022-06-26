@@ -5,19 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 400px;
+            border:  1px dashed black;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso iframe</h1>
     <p> acessar do
         
         
-        <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scolling="auto"> <!--paramentro  scolling :auto, yes e no-->
+            {Navegador não compativel link para o site <a href="https://www.cursoemvideo.com" target="_blank"></a> }
+        </iframe>
         
         
         
-        site curso  </p> 
+        site curso  </p>
+        
+    <p>Repositório Guanabara
 
-        <!--Não funciona em todos os sites por causa da proteção -->
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+            {Navegador não compativel link para o site <a href="https://gustavoguanabara.github.io" target="_blank"></a> }
+        </iframe>
+    </p>    
+
+
+        <!--Não funciona em todos os sites por causa da proteção EX: google-->
+        <!--tamanho padrão 300x150  altura x largura -->
 
 
 </body>
